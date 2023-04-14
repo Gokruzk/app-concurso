@@ -18,12 +18,12 @@ export const Taller = () => {
               <div className="relative mb-3" data-te-input-wrapper-init>
                 <input
                   type="text"
-                  className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                  className="inline-block rounded min-h-[4] w-1000 border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                   placeholder="Título"
                 />
                 <input
                   type="text"
-                  className="inline-block rounded min-h-[auto] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                  className="inline-block rounded min-h-[auto] mx-2 border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                   placeholder="Nombre"
                 />
               </div>
@@ -71,7 +71,7 @@ export const Taller = () => {
               <select
                 name="select"
                 required
-                className="w-full inline-block rounded min-h-[4] rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="w-full inline-block rounded min-h-[4] border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
               >
                 <option value="value1">Sitemas</option>
                 <option value="value2">Electrónica</option>

@@ -30,13 +30,13 @@ export const SignUp = () => {
               <input
                 style={{ color: "black" }}
                 type="text"
-                className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] w-1000 border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Primer Nombre"
               />
               <input
                 style={{ color: "black" }}
                 type="text"
-                className="inline-block rounded min-h-[auto] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[auto] mx-2 border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Segundo Nombre"
               />
             </div>
@@ -45,13 +45,13 @@ export const SignUp = () => {
               <input
                 style={{ color: "black" }}
                 type="text"
-                className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] w-1000 border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Primer Apellido"
               />
               <input
                 style={{ color: "black" }}
                 type="text"
-                className="inline-block rounded min-h-[auto] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[auto] mx-2 border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Segundo Apellido"
               />
             </div>
@@ -60,7 +60,7 @@ export const SignUp = () => {
               <input
                 style={{ color: "black" }}
                 type="text"
-                className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-10 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] w-1000 border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-10 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Cédula"
               />
 
@@ -68,7 +68,7 @@ export const SignUp = () => {
                 name="select"
                 required
                 style={{ color: "black" }}
-                className="inline-block rounded min-h-[4] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] mx-2 border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Género"
               >
                 <option value="value1">Masculino</option>
@@ -82,7 +82,7 @@ export const SignUp = () => {
                 name="select"
                 required
                 style={{ color: "black" }}
-                className="inline-block rounded min-h-[4] rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Género"
               >
                 <option value="value1">Estudiante/Docente</option>

@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export const Conferencia = () => {
   return (
-    <div className="relative mx-10 p-30 text-align: center" style={{ height: "95vh", justifyItems: "center", justifyTracks: "center" }}
+    <div className="relative mx-10 p-30" style={{ height: "95vh"}}
     >
-      <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
+      <div className="flex h-full flex-wrap items-center justify-center ">
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
           <div className="p-3">
             <h1 className="text-xl font-semibold text-center">Crear Conferencia</h1>

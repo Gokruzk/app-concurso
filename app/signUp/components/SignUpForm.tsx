@@ -4,7 +4,7 @@ import { Google, Apple, Facebook } from "./index"
 export const LogInForm = () => {
   return (
     <div className="relative mx-10" style={{ height: "95vh" }}>
-      <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
+      <div className="flex h-full flex-wrap items-center justify-center">
 
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
           <div className='p-3'>

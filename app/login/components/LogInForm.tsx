@@ -6,7 +6,7 @@ export const LogInForm = () => {
       <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
           <div className='p-3'>
-            <h1 className='text-xl font-semibold text-center'> Sign in </h1>
+            <h1 className='text-xl font-semibold text-center'> Iniciar Sesión </h1>
           </div>
           <form>
             <div className="relative mb-6" data-te-input-wrapper-init>

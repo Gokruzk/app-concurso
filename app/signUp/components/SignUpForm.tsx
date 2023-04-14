@@ -8,7 +8,7 @@ export const LogInForm = () => {
 
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
           <div className='p-3'>
-            <h1 className='text-xl font-semibold text-center'> Sign Up</h1>
+            <h1 className='text-xl font-semibold text-center'>Registro</h1>
           </div>
           <form>
             <div className="relative mb-6" data-te-input-wrapper-init>
@@ -54,7 +54,7 @@ export const LogInForm = () => {
             <div className="relative mb-3" data-te-input-wrapper-init>
               <input
                 type="text"
-                className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-10 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder='Cédula'
               />
 
@@ -85,7 +85,7 @@ export const LogInForm = () => {
               data-te-ripple-init
               data-te-ripple-color="light"
             >
-              Sign Up
+              Registrarme
             </button>
 
           </form>

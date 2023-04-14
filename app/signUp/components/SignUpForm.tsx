@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Google, Apple, Facebook } from "./index"
 
 export const LogInForm = () => {
   return (
@@ -87,7 +86,6 @@ export const LogInForm = () => {
                 <option value="value2">Público general</option>
               </select>
             </div>
-
 
             <button
               type="submit"

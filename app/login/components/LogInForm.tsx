@@ -30,7 +30,7 @@ export const LogInForm = () => {
               data-te-ripple-init
               data-te-ripple-color="light"
             >
-              Sign in
+              Iniciar Sesión
             </button>
           </form>
         </div>

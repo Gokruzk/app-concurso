@@ -1,13 +1,13 @@
-import Link from "next/link"
+import { signInWithEmailAndPassword } from "firebase/auth";
 
-export const LogInForm = () => {
+export const SignUp = () => {
+  
   return (
     <div className="relative mx-10" style={{ height: "95vh" }}>
       <div className="flex h-full flex-wrap items-center justify-center">
-
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
-          <div className='p-3'>
-            <h1 className='text-xl font-semibold text-center'>Registro</h1>
+          <div className="p-3">
+            <h1 className="text-xl font-semibold text-center">Registro</h1>
           </div>
           <form>
             <div className="relative mb-6" data-te-input-wrapper-init>
@@ -23,7 +23,7 @@ export const LogInForm = () => {
                 style={{ color: "black" }}
                 type="password"
                 className="w-full peer block min-h-[auto] rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Contraseña'
+                placeholder="Contraseña"
               />
             </div>
             <div className="relative mb-3" data-te-input-wrapper-init>
@@ -31,29 +31,28 @@ export const LogInForm = () => {
                 style={{ color: "black" }}
                 type="text"
                 className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Primer Nombre'
+                placeholder="Primer Nombre"
               />
               <input
                 style={{ color: "black" }}
                 type="text"
                 className="inline-block rounded min-h-[auto] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Segundo Nombre'
+                placeholder="Segundo Nombre"
               />
             </div>
 
             <div className="relative mb-3" data-te-input-wrapper-init>
               <input
                 style={{ color: "black" }}
-
                 type="text"
                 className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Primer Apellido'
+                placeholder="Primer Apellido"
               />
               <input
                 style={{ color: "black" }}
                 type="text"
                 className="inline-block rounded min-h-[auto] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Segundo Apellido'
+                placeholder="Segundo Apellido"
               />
             </div>
 
@@ -62,10 +61,12 @@ export const LogInForm = () => {
                 style={{ color: "black" }}
                 type="text"
                 className="inline-block rounded min-h-[4] w-1000 rounded border bg-transparent py-[0.3rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-10 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Cédula'
+                placeholder="Cédula"
               />
 
-              <select name="select" required
+              <select
+                name="select"
+                required
                 style={{ color: "black" }}
                 className="inline-block rounded min-h-[4] mx-2 rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Género"
@@ -77,8 +78,10 @@ export const LogInForm = () => {
             </div>
 
             <div className="relative mb-6" data-te-input-wrapper-init>
-              <select name="select" required
-              style={{color:"black"}}
+              <select
+                name="select"
+                required
+                style={{ color: "black" }}
                 className="inline-block rounded min-h-[4] rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                 placeholder="Género"
               >
@@ -95,10 +98,9 @@ export const LogInForm = () => {
             >
               Registrarme
             </button>
-
           </form>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

@@ -1,15 +1,14 @@
 import "../globals.css"
-import { LogInForm } from "./components"
+import { SignUp } from "./components"
 
 export default function LoginPage() {
-  let login = "Sign in"
 
   return (
     <>
       <header>
-        <title>{login}</title>
+        <title>Registrarse</title>
       </header>
-      <LogInForm />
+      <SignUp />
     </>
   )
 }

@@ -1,17 +1,23 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBPQLbbeqp2UCIEWzk8NamR4jMiWfhfELs",
-  authDomain: "app-concurso-c04d8.firebaseapp.com",
-  projectId: "app-concurso-c04d8",
-  storageBucket: "app-concurso-c04d8.appspot.com",
-  messagingSenderId: "1089095123404",
-  appId: "1:1089095123404:web:c6c53656b0066f23d3dd69"
+  apiKey: process.env.NEXT_API,
+  authDomain: process.env.NEXT_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PROJECT_ID,
+  storageBucket: process.env.NEXT_STORAGE,
+  messagingSenderId: process.env.NEXT_MESSAGING,
+  appId: process.env.NEXT_APPID
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+// Initialize Firebase Authentication and get a reference to the service
+export const db = getFirestore
+export default auth = getAuth(app);

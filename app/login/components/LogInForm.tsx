@@ -1,12 +1,18 @@
-import Link from "next/link"
+import Link from "next/link";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import auth from "../../../firebase";
 
 export const LogInForm = () => {
+
   return (
     <div className="relative mx-10" style={{ height: "95vh" }}>
       <div className="flex h-full flex-wrap items-center justify-center">
         <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
-          <div className='p-3'>
-            <h1 className='text-xl font-semibold text-center'> Iniciar Sesión </h1>
+          <div className="p-3">
+            <h1 className="text-xl font-semibold text-center">
+              {" "}
+              Iniciar Sesión{" "}
+            </h1>
           </div>
           <form>
             <div className="relative mb-6" data-te-input-wrapper-init>
@@ -20,7 +26,7 @@ export const LogInForm = () => {
               <input
                 type="password"
                 className="w-full peer block min-h-[auto] rounded border bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
-                placeholder='Password'
+                placeholder="Password"
               />
             </div>
 
@@ -36,5 +42,5 @@ export const LogInForm = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

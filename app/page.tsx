@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default function Home() {
+  "use client";
   return (
     <div className="align-content: center">
       <header>

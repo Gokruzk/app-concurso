@@ -1,10 +1,15 @@
-import Login from './common/components/login/page'
+import Link from "next/link";
 
 export default function Home() {
-  return (
-    <>
-    <h1>HELLO WORLD</h1>
-    <Login/>
-    </>
-  )
+  return(
+    <div>
+      <h1>CONFERENCIAS Y TALLERES</h1>
+      <h2>Bienvenidos</h2>
+      <Link href="/home">
+        <button type="submit">
+          INICIAR
+        </button>
+      </Link>
+    </div>
+    ) 
 }

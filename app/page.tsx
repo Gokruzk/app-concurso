@@ -7,7 +7,7 @@ export default function Home() {
         <title>App Concurso</title>
       </header>
       <div className="relative mx-10 content-center" style={{ height: "95vh" }}>
-        <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
+        <div className="flex h-full flex-wrap items-center justify-center">
           <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
             <div className="p-3">
               <h1 className="text-xl font-semibold text-center">

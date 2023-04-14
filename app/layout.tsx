@@ -1,6 +1,5 @@
 import Footer from "./common/layout/footer/Footer";
 import Header from "./common/layout/header/Header";
-import NavBar from "./common/layout/navbar";
 import "./globals.css";
 
 export const metadata = {
@@ -15,13 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col h-screen">
         <nav>
           <Header/>
-          {/* <NavBar/> */}
         </nav>
         <main className="h-full">{children}</main>
-        <footer>
+        <footer className="shadow-lg h-full w-full bg-footer text-footer-text">
           <Footer />
         </footer>
       </body>

@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className="mx-6">
+        <nav>
           <Header/>
           {/* <NavBar/> */}
         </nav>
